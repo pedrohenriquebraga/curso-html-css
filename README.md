@@ -1,6 +1,6 @@
 # Curso De HTML5 e CSS3
 
-Este é um curso desenvolvido pelo professor **Gustavo Guanabara** em meio a pandemia da *Covid-19*. Até o momento, o curso não está completo e está dendo disponibilizado na [plataforma de apoio](https://apoie.me/cursoemvideo) do Curso em Vídeo.
+Este é um curso desenvolvido pelo professor **Gustavo Guanabara** em meio a pandemia da *Covid-19*. Até o momento, o curso não está completo e está dendo disponibilizado na [plataforma de apoio](https://apoie.me/cursoemvideo) do [Curso em Vídeo](https://youtube.com/cursoemvideo).
 
 ## O que você encontrará nesse repositório
 
