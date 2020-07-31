@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 88.5%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+    color: #0a7038;
+}
+
+main a {
+    color: #05a04b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a::after {
+    content: "🔗";
+}
+
+main a:hover {
+    color: #0a7038;
+}
+
+header {
+    background-image: linear-gradient(#3BD580, #195634);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    width: 100vw;
+    min-width: 320px;
+    padding: 30px;
+
+    margin: -10px;
+    text-align: center;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+header nav {
+    font-size: 12px;
+    position: absolute;
+    text-align: left;
+    margin-left: -20px;
+}
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-right: 25px;
+}
+
+
+main {
+    background-color: white;
+    width: 50%;
+    min-width: 320px;
+    margin: auto;
+    padding: 10px;
+
+    margin-top: 10px;
+
+    border-radius: 0 0 10px 10px;
+    box-shadow: 5px 2px 6px rgba(0, 0, 0, 0.342);
+}
+
+main p {
+    text-indent: 40px;
+    text-align: justify;
+}
+
+h2, h3 {
+    font-family: "Idroid", sans-serif;
+    color: #276543;
+}
+
+h3 {
+    background-image: linear-gradient(to right, #8bbaa0a2, #8bbaa000);
+    padding: 2px;
+    padding-left: 10px;
+}
+
+article {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px 0px #00000057;
+}
+
+article h4 {
+    background-color: #2FA866;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    color: white
+}
+
+article p {
+    padding: 0 10px 10px;
+}
+
+article ul {
+    list-style: none;
+    columns: 2;
+}
+
+article ul li::before {
+    content: "✔️";
+}
+
+section img {
+    margin: auto;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    height: 40vh;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 8px solid #1A5C38;
+    outline: 11px solid #1A5C38;
+}
+
+footer {
+    width: 100%;
+    background-color: darkgreen;
+    color: white;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+footer p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+}
+
+@media (min-width: 850px) {
+    iframe {
+        height: 70vh;
+    }
+}
