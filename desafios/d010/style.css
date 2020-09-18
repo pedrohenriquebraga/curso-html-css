@@ -41,9 +41,8 @@ header {
     color: white;
     box-shadow: -1px 4px 4px 1px rgba(0, 0, 0, 0.445);
 
-    width: 100%;
+    width: 100vw;
     height: 120px;
-    min-width: 320px;
     padding: 30px;
 
     margin: -10px;
